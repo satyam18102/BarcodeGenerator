@@ -33,11 +33,11 @@ if(!loading){
       <Field >
       {/* <Heading size="4xl" mb="4" className="not">Barcode Generator</Heading> */}
       <h1>Barcode Generator</h1>
-        <Input placeholder="Search City" mb="6" onChange={handleChange} required value={value} />
+        <Input placeholder="Search City" mb="6" onChange={handleChange} required value={text} />
         <Button colorPalette='teal' type="submit" mb="9" variant="solid">
         Generate Barcode <LuArrowRight />
       </Button>
-      <Barcode className="barcode" value={value} background='#fff' lineColor='#000' fontSize="20" width='2' font='monospace'/>
+      <Barcode className="barcode" value={value} background='#fff' lineColor='#000' fontSize="25" width='2' font='monospace'/>
         <br />
       </Field>
       </form>
