@@ -33,7 +33,7 @@ if(!loading){
       <Field >
       {/* <Heading size="4xl" mb="4" className="not">Barcode Generator</Heading> */}
       <h1>Barcode Generator</h1>
-        <Input placeholder="Search City" mb="6" onChange={handleChange} required value={text} />
+        <Input placeholder="Enter text" mb="6" onChange={handleChange} required value={text} />
         <Button colorPalette='teal' type="submit" mb="9" variant="solid">
         Generate Barcode <LuArrowRight />
       </Button>
